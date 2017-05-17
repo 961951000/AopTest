@@ -54,7 +54,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AOPBLL\Add.cs" />
     <Compile Include="AOPBLL\Command.cs" />
+    <Compile Include="AOPBLL\IAdd.cs" />
     <Compile Include="AOPBLL\ICommand.cs" />
     <Compile Include="Aspects\Interceptor.cs" />
     <Compile Include="Program.cs" />
